@@ -1,5 +1,5 @@
 .header {
-  display: flex;  
+  display: flex;
   justify-content: space-between;
   align-items: stretch;
   padding: 92px 50px;
@@ -40,7 +40,7 @@
 .header__logo {
   align-self: center;
   width: auto;
-  padding-right: 11%;  
+  padding-right: 11%;
 }
 
 .header__logo-image {
@@ -48,7 +48,7 @@
   height: 105px;
 }
 
-.address {  
+.address {
   align-self: self-end;
   width: 240px;
   font-style: normal;
@@ -83,7 +83,7 @@
   text-transform: uppercase;
 }
 
-.letter-spacing-extended {  
+.letter-spacing-extended {
   letter-spacing: 0.6em;
 }
 
@@ -92,7 +92,7 @@
   text-align: left;
 }
 
-.aligned-text_center {  
+.aligned-text_center {
   margin-right: 30px;
   text-align: center;
 }
@@ -129,8 +129,8 @@
   color: #fff;
   font-weight: 400;
   font-size: 22px;
-  text-transform: uppercase;
   text-decoration: none;
+  text-transform: uppercase;
   background: none;
 }
 
@@ -139,9 +139,9 @@
 }
 
 .lots__heading {
-  font-size: 40px;
-  font-weight: 700;
   margin: 0 0 27px 40px;
+  font-weight: 700;
+  font-size: 40px;
   text-transform: uppercase;
 }
 
@@ -149,14 +149,14 @@
   display: flex;
   flex-wrap: wrap;
   gap: 25px;
-  list-style: none;
   margin-bottom: 30px;
+  list-style: none;
 }
 
 .lots__card-list-item {
   flex: 1 0 0;
-  min-height: 450px;
   min-width: 430px;
+  min-height: 450px;
 }
 
 .card-link {
@@ -174,24 +174,24 @@
 }
 
 .card .overlay {
-  padding: 50px 40px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  padding: 50px 40px;
   
 }
 
 .card__title {
-  font-size: 22px;
   font-weight: 700;
-  text-transform: uppercase;
+  font-size: 22px;
   text-decoration: underline;
+  text-transform: uppercase;
 }
 
 .card__text {
-  line-height: 120%;
-  font-size: 20px;
   font-weight: 400;
+  font-size: 20px;
+  line-height: 120%;
 }
 
 .card_type_book {
@@ -203,16 +203,48 @@
 }
 
 .lots__look-more-link {
+  margin-left: 40px;
+  border-bottom: 1px solid #000;
+  font-weight: 400;
+  font-size: 20px;
   text-decoration: none;
   text-transform: lowercase;
-  margin-left: 40px;
-  font-size: 20px;
-  font-weight: 400;
-  border-bottom: 1px solid #000;
 }
 
 .about {
   padding: 1px 50px 181px 50px;
+  display: flex;
+  gap: 25px;
+}
+
+.about__column {
+  margin-top: 103px;
+}
+
+.about__logo {
+  background-color: #000;
+  border-radius: 50%;
+  margin: -102px 95px;
+  padding: 62px 46px;
+}
+
+.about__logo-image {
+  width: 148px;
+}
+
+.about__title {
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.about__text {
+  font-size: 20px;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-top: 100px;
 }
 
 .footer {
