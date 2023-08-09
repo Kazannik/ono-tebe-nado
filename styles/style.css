@@ -227,7 +227,7 @@
   text-transform: lowercase;
 }
 
-.about {  
+.about {
   display: flex;
   flex-direction: row;
   gap: 25px;
@@ -247,7 +247,7 @@
 }
 
 .about__column {
-  display: flex;  
+  display: flex;
   flex-direction: column;
   gap: 100px;
   padding: 104px 0;
@@ -255,13 +255,13 @@
 
 .about__title {
   font-size: 40px;
-  text-transform: uppercase;  
+  text-transform: uppercase; 
 }
 
 .about__text {
   display: flex;
   flex-direction: column;
-  gap: 25px;  
+  gap: 25px;
   font-weight: 400;
   font-size: 20px;
 }
